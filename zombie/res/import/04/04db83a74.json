@@ -1,0 +1,210 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "z2",
+    "_duration": 0.06666666666666667,
+    "speed": 0.2,
+    "wrapMode": "2",
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "9bzmCq2kFHm4AD2eAfchrn"
+              }
+            },
+            {
+              "frame": 0.016666666666666666,
+              "value": {
+                "__uuid__": "ebkNiAf+xEH4xyZKNhVB0Y"
+              }
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__uuid__": "35x3fOAzBK7aRRLneDTLxu"
+              }
+            },
+            {
+              "frame": 0.05,
+              "value": {
+                "__uuid__": "77DgEP1U1Lia8q8r2hE+rq"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy6_leader_hit_01",
+      "texture": "19ebb1014",
+      "rect": [
+        322,
+        641,
+        90,
+        94
+      ],
+      "offset": [
+        -22,
+        -1
+      ],
+      "originalSize": [
+        160,
+        116
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy6_leader_hit_00",
+      "texture": "19ebb1014",
+      "rect": [
+        322,
+        543,
+        90,
+        94
+      ],
+      "offset": [
+        -22,
+        -1
+      ],
+      "originalSize": [
+        160,
+        116
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "z2",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "sprite",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "9bzmCq2kFHm4AD2eAfchrn"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 1
+          },
+          "_defaultClip": {
+            "__uuid__": "05YbFJp5lGga8GBABiKRG6"
+          },
+          "_clips": [
+            {
+              "__uuid__": "05YbFJp5lGga8GBABiKRG6"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "821cF4k9VGHbrDd+BowTLp"
+        },
+        "fileId": "e8T9shKENN+aRuRY/UgAhY"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 70,
+        "height": 97
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy6_leader_hit_03",
+      "texture": "19ebb1014",
+      "rect": [
+        808,
+        446,
+        70,
+        97
+      ],
+      "offset": [
+        -9,
+        0.5
+      ],
+      "originalSize": [
+        160,
+        116
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy6_leader_hit_02",
+      "texture": "19ebb1014",
+      "rect": [
+        808,
+        345,
+        80,
+        97
+      ],
+      "offset": [
+        -15,
+        0.5
+      ],
+      "originalSize": [
+        160,
+        116
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_04",
+      "texture": "19ebb1014",
+      "rect": [
+        2,
+        943,
+        67,
+        104
+      ],
+      "offset": [
+        3.5,
+        -3
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_02",
+      "texture": "19ebb1014",
+      "rect": [
+        908,
+        143,
+        59,
+        101
+      ],
+      "offset": [
+        6.5,
+        -4.5
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_00",
+      "texture": "19ebb1014",
+      "rect": [
+        2,
+        833,
+        66,
+        106
+      ],
+      "offset": [
+        3,
+        -2
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "z7",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "sprite",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "83bbbGqWlLTK6U0wrY0zgj"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 1
+          },
+          "_defaultClip": {
+            "__uuid__": "bdw0r8yMdHta9CcVrvqvrx"
+          },
+          "_clips": [
+            {
+              "__uuid__": "bdw0r8yMdHta9CcVrvqvrx"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "8aW/zXW5NG5YQdtg57ehek"
+        },
+        "fileId": "7a3uA/QONDepjuMaAlG7JS"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 66,
+        "height": 106
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_05",
+      "texture": "19ebb1014",
+      "rect": [
+        207,
+        523,
+        68,
+        104
+      ],
+      "offset": [
+        4,
+        -3
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_01",
+      "texture": "19ebb1014",
+      "rect": [
+        207,
+        415,
+        63,
+        104
+      ],
+      "offset": [
+        4.5,
+        -3
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "z7",
+    "_duration": 0.11666666666666667,
+    "speed": 0.2,
+    "wrapMode": "2",
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "83bbbGqWlLTK6U0wrY0zgj"
+              }
+            },
+            {
+              "frame": 0.016666666666666666,
+              "value": {
+                "__uuid__": "a0eCiG+4ZPka6fYPxXH1uH"
+              }
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__uuid__": "7aIhApn1dFOK8wH0WXZVMu"
+              }
+            },
+            {
+              "frame": 0.05,
+              "value": {
+                "__uuid__": "f1bxv0+vhNs5uhj16pBisS"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "0bzTFkmZFEgauZMhIOrknb"
+              }
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__uuid__": "9btq2ZpQNPpboFBo6CCZD7"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "f6VEtb4TtFia4PoRVEfK2K"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_03",
+      "texture": "19ebb1014",
+      "rect": [
+        336,
+        403,
+        66,
+        104
+      ],
+      "offset": [
+        3,
+        -3
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "boss1_knife_walk_06",
+      "texture": "19ebb1014",
+      "rect": [
+        120,
+        717,
+        66,
+        105
+      ],
+      "offset": [
+        3,
+        -2.5
+      ],
+      "originalSize": [
+        170,
+        124
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

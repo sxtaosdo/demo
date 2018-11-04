@@ -1,0 +1,248 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_spriteFrames": {
+    "enemy4_spy_walk_01": {
+      "__uuid__": "38AGUOSx1C4r2CLWOmZG6/"
+    },
+    "enemy4_spy_walk_00": {
+      "__uuid__": "abSEWr2R5Pzr+9wFZCRnP1"
+    },
+    "enemy4_spy_walk_03": {
+      "__uuid__": "0cZXZupeRFm6vGo7s+1PD9"
+    },
+    "enemy4_spy_walk_04": {
+      "__uuid__": "69NUkDFw9MG5sTk3xGAREr"
+    },
+    "enemy4_spy_walk_05": {
+      "__uuid__": "02nlh+wCJH/b48MN4Hm8+o"
+    },
+    "enemy4_spy_walk_02": {
+      "__uuid__": "6ej1YLx4JKHJM242Repex3"
+    },
+    "boss4_tank_walk_02": {
+      "__uuid__": "bcYrOteMtN57LpbenTg1HY"
+    },
+    "boss4_tank_walk_03": {
+      "__uuid__": "8ek7dcPpxJr4y0HheOcxhF"
+    },
+    "boss4_tank_walk_01": {
+      "__uuid__": "41QNIWyQNMQ7wqyAONAFVY"
+    },
+    "boss4_tank_walk_04": {
+      "__uuid__": "6cvwGHvFZG45vdnPjJA/lR"
+    },
+    "boss4_tank_walk_07": {
+      "__uuid__": "56+U9wsNBBhKLI7b9BK8GI"
+    },
+    "boss4_tank_walk_00": {
+      "__uuid__": "ebKQZnTrBLWq7VfLehm6TX"
+    },
+    "boss4_tank_walk_05": {
+      "__uuid__": "f54xotjSVItI+PGgZwO4XD"
+    },
+    "boss4_tank_walk_06": {
+      "__uuid__": "259zLUr2BKzLYFPy/RvsHq"
+    },
+    "enemy2_traitor_walk_00": {
+      "__uuid__": "28OdlblYBCSLfCcu/22LrJ"
+    },
+    "enemy6_leader_effect_04": {
+      "__uuid__": "54onHoDOdIUJrfQ+V0MVqP"
+    },
+    "enemy2_traitor_walk_01": {
+      "__uuid__": "4fpirs9eZGNJCtZARFRiqk"
+    },
+    "enemy6_leader_effect_03": {
+      "__uuid__": "01ZmaW11tN15nWu9gSyDU8"
+    },
+    "enemy2_traitor_walk_02": {
+      "__uuid__": "e5Y9WFlQhHnJ9M4xZfkZbu"
+    },
+    "enemy6_leader_effect_05": {
+      "__uuid__": "b5KQoWl6xHtpMfP9lROr2h"
+    },
+    "碑": {
+      "__uuid__": "404rPOKL5P0Ym6Jz3r/SVD"
+    },
+    "enemy2_traitor_walk_03": {
+      "__uuid__": "1aGXwn6D1IC4Nk+/6OrpEy"
+    },
+    "enemy3_bio_walk_00": {
+      "__uuid__": "3daDOfLRlOKLzU4KSLNvsl"
+    },
+    "enemy2_traitor_walk_04": {
+      "__uuid__": "45BQm7G+lOH5HkJ0xWBpyd"
+    },
+    "enemy6_leader_hit_05": {
+      "__uuid__": "ba0mbAw3hI2Ykh4ZJAfhT0"
+    },
+    "boss1_knife_walk_00": {
+      "__uuid__": "83bbbGqWlLTK6U0wrY0zgj"
+    },
+    "boss1_knife_walk_06": {
+      "__uuid__": "f6VEtb4TtFia4PoRVEfK2K"
+    },
+    "boss1_knife_walk_01": {
+      "__uuid__": "a0eCiG+4ZPka6fYPxXH1uH"
+    },
+    "boss1_knife_walk_03": {
+      "__uuid__": "f1bxv0+vhNs5uhj16pBisS"
+    },
+    "enemy2_traitor_walk_05": {
+      "__uuid__": "0c8nOsiZBOYp4d2kQHD23r"
+    },
+    "enemy6_leader_effect_02": {
+      "__uuid__": "caRSy04TVPJYoh8Mks5P7i"
+    },
+    "boss1_knife_walk_05": {
+      "__uuid__": "9btq2ZpQNPpboFBo6CCZD7"
+    },
+    "boss1_knife_walk_04": {
+      "__uuid__": "0bzTFkmZFEgauZMhIOrknb"
+    },
+    "enemy1_bayonet_walk_00": {
+      "__uuid__": "a3+3XZRPRBLamlxo8rUAkN"
+    },
+    "boss3_commander_walk_00": {
+      "__uuid__": "2cPXAENC5Nj7xSxmGhD75a"
+    },
+    "boss3_commander_walk_01": {
+      "__uuid__": "d5AVK4SQ1H9ofcA5HYn3th"
+    },
+    "boss3_commander_walk_02": {
+      "__uuid__": "00QJpX9wpPBqwZ898FxkFt"
+    },
+    "boss3_commander_walk_03": {
+      "__uuid__": "21Hbz89WZIDa7Y5raIBOG5"
+    },
+    "boss3_commander_walk_04": {
+      "__uuid__": "9afVNqIW1NOKzD2hqPe6tl"
+    },
+    "enemy6_leader_hit_04": {
+      "__uuid__": "706vegKY5M0pUKl1bhv6Zw"
+    },
+    "boss1_knife_walk_02": {
+      "__uuid__": "7aIhApn1dFOK8wH0WXZVMu"
+    },
+    "enemy5_moto_walk_04": {
+      "__uuid__": "a41gN2istNGLx13pT6EwVt"
+    },
+    "boss3_commander_walk_05": {
+      "__uuid__": "f4IYhhi1FBnJYmvZKi4rgy"
+    },
+    "enemy1_bayonet_walk_04": {
+      "__uuid__": "d6yeOcTlxOZqBp80zdmYes"
+    },
+    "enemy1_bayonet_walk_05": {
+      "__uuid__": "b82mq4uQBNYLv1YvtjXvGY"
+    },
+    "boss3_commander_walk_06": {
+      "__uuid__": "0aN4PDT/5Oyadvp4r9Ge6g"
+    },
+    "boss3_commander_walk_07": {
+      "__uuid__": "5786oOKgpEMLT1IaDohYE7"
+    },
+    "enemy6_leader_hit_00": {
+      "__uuid__": "77DgEP1U1Lia8q8r2hE+rq"
+    },
+    "enemy6_leader_hit_01": {
+      "__uuid__": "35x3fOAzBK7aRRLneDTLxu"
+    },
+    "enemy6_leader_walk_02": {
+      "__uuid__": "04/FB2CR5ECq99ZJBcCfZg"
+    },
+    "enemy6_leader_hit_02": {
+      "__uuid__": "ebkNiAf+xEH4xyZKNhVB0Y"
+    },
+    "enemy6_leader_hit_03": {
+      "__uuid__": "9bzmCq2kFHm4AD2eAfchrn"
+    },
+    "boss2_gun_walk_00": {
+      "__uuid__": "cbKAn99SlGS56NpyUd8Pww"
+    },
+    "enemy6_leader_effect_01": {
+      "__uuid__": "cfotj50AVIFI6S18yngO3f"
+    },
+    "enemy1_bayonet_walk_02": {
+      "__uuid__": "7bMq6FGzRNVpOKZwD1tf6l"
+    },
+    "boss2_gun_walk_01": {
+      "__uuid__": "feAIJXXl1H0rk4B1BgGRBX"
+    },
+    "boss2_gun_walk_03": {
+      "__uuid__": "692qfdw4tNxI/tQtr5DLtQ"
+    },
+    "enemy1_bayonet_walk_01": {
+      "__uuid__": "cejJmBmkxBzJq4ok33vZzy"
+    },
+    "enemy3_bio_walk_05": {
+      "__uuid__": "c5xw9+oghMhJkGh9FaafZj"
+    },
+    "enemy1_bayonet_walk_03": {
+      "__uuid__": "cdmUVzgm1LVLGqABNrFsnb"
+    },
+    "enemy3_bio_walk_03": {
+      "__uuid__": "4dG8HLKH9B2Zyxjo0Gi94h"
+    },
+    "enemy5_moto_walk_00": {
+      "__uuid__": "8c9YMqSJdK3ZcZb4MRbIFg"
+    },
+    "enemy5_moto_walk_01": {
+      "__uuid__": "acL1Gy3U5Bj5Rw5H+pXmPP"
+    },
+    "enemy6_leader_effect_00": {
+      "__uuid__": "89QElHFuhADKaHrW/zk1A6"
+    },
+    "enemy6_leader_walk_03": {
+      "__uuid__": "d5lUgt5oZP2ofBO6shuOC1"
+    },
+    "enemy5_moto_walk_02": {
+      "__uuid__": "4afRmIvU1Ecqb5KGGPceMZ"
+    },
+    "enemy3_bio_walk_04": {
+      "__uuid__": "427DT6B7NAWbzIXn9ysOpp"
+    },
+    "enemy3_bio_walk_06": {
+      "__uuid__": "6c2jSoBtRCqIB4YVwgEEOh"
+    },
+    "enemy5_moto_walk_03": {
+      "__uuid__": "60Cwq2HUZMS4yjhNGDK7o9"
+    },
+    "enemy6_leader_effect_06": {
+      "__uuid__": "0dZCJ2uI1F75w9/essGly0"
+    },
+    "enemy6_leader_walk_01": {
+      "__uuid__": "fd/mm8zi9G9IfBOd6+skSg"
+    },
+    "boss2_gun_walk_04": {
+      "__uuid__": "35liLGfdRKpIRgKxVW79Mp"
+    },
+    "enemy6_leader_walk_00": {
+      "__uuid__": "890nX2kPtCG6/gvINhot7D"
+    },
+    "enemy6_leader_walk_04": {
+      "__uuid__": "67iPQYeYhEDIqms+m4Y4ee"
+    },
+    "enemy6_leader_walk_05": {
+      "__uuid__": "54SLPlDg1OhrtFd02k5xdu"
+    },
+    "boss2_gun_walk_02": {
+      "__uuid__": "343XqDlldD7oAVUZ0E6dpi"
+    },
+    "boss2_gun_walk_05": {
+      "__uuid__": "01Q0uX/jlP3JfsIDc9Y7gb"
+    },
+    "enemy3_bio_walk_01": {
+      "__uuid__": "24ncVChrhEU6vFpa60YDFE"
+    },
+    "enemy6_leader_walk_06": {
+      "__uuid__": "45z7H5wVdNYZfMlOlqEjWO"
+    },
+    "enemy3_bio_walk_02": {
+      "__uuid__": "b7K1/m18pGgJKhTMdKUD/4"
+    },
+    "enemy6_leader_effect_07": {
+      "__uuid__": "26IV6CwKhFeYuPI8MfgEbf"
+    }
+  }
+}

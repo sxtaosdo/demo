@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boss2_gun_walk_03",
+    "texture": "19ebb1014",
+    "rect": [
+      688,
+      448,
+      104,
+      88
+    ],
+    "offset": [
+      -5,
+      -10
+    ],
+    "originalSize": [
+      200,
+      144
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_01",
+      "texture": "19ebb1014",
+      "rect": [
+        825,
+        821,
+        100,
+        86
+      ],
+      "offset": [
+        -7,
+        -13
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_00",
+      "texture": "19ebb1014",
+      "rect": [
+        336,
+        298,
+        101,
+        87
+      ],
+      "offset": [
+        -6.5,
+        -12.5
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_04",
+      "texture": "19ebb1014",
+      "rect": [
+        752,
+        595,
+        101,
+        84
+      ],
+      "offset": [
+        -6.5,
+        -14
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_03",
+      "texture": "19ebb1014",
+      "rect": [
+        646,
+        540,
+        102,
+        83
+      ],
+      "offset": [
+        -7,
+        -14.5
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "z1",
+    "_duration": 0.11666666666666667,
+    "speed": 0.2,
+    "wrapMode": "2",
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "3daDOfLRlOKLzU4KSLNvsl"
+              }
+            },
+            {
+              "frame": 0.016666666666666666,
+              "value": {
+                "__uuid__": "24ncVChrhEU6vFpa60YDFE"
+              }
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__uuid__": "b7K1/m18pGgJKhTMdKUD/4"
+              }
+            },
+            {
+              "frame": 0.05,
+              "value": {
+                "__uuid__": "4dG8HLKH9B2Zyxjo0Gi94h"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "427DT6B7NAWbzIXn9ysOpp"
+              }
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__uuid__": "c5xw9+oghMhJkGh9FaafZj"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "6c2jSoBtRCqIB4YVwgEEOh"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "z1",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "sprite",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "3daDOfLRlOKLzU4KSLNvsl"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 1
+          },
+          "_defaultClip": {
+            "__uuid__": "65D6GYCdZGAbCHHUb0CXf6"
+          },
+          "_clips": [
+            {
+              "__uuid__": "65D6GYCdZGAbCHHUb0CXf6"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "6crK4Ia8dFfYBjR+I5RsGs"
+        },
+        "fileId": "d2gJ9haC5Bw51RE5MxG0wI"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 40,
+        "height": 36
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_06",
+      "texture": "19ebb1014",
+      "rect": [
+        430,
+        745,
+        101,
+        87
+      ],
+      "offset": [
+        -6.5,
+        -12.5
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_02",
+      "texture": "19ebb1014",
+      "rect": [
+        915,
+        911,
+        100,
+        83
+      ],
+      "offset": [
+        -7,
+        -14.5
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "enemy3_bio_walk_05",
+      "texture": "19ebb1014",
+      "rect": [
+        507,
+        547,
+        101,
+        88
+      ],
+      "offset": [
+        -6.5,
+        -12
+      ],
+      "originalSize": [
+        200,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
