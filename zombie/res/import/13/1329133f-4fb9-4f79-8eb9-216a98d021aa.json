@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_spriteFrames": {
+    "windowTitle": {
+      "__uuid__": "98lsNIDHZIRpILNI2WjULc"
+    },
+    "恭喜获得": {
+      "__uuid__": "75YRYy2fpKFLt4RAgey4ii"
+    },
+    "yellowBtn": {
+      "__uuid__": "a64F0PZkhMqZW0aLrEbuNR"
+    },
+    "卡片底图": {
+      "__uuid__": "bf1e5iJ7hJ9a+G3MDx0aRT"
+    },
+    "btnYellow": {
+      "__uuid__": "81OPK4OgJG8rUYcnnroMge"
+    },
+    "排行榜他": {
+      "__uuid__": "3cGkI3Br5PRq/JesHtqpr2"
+    },
+    "光芒背景": {
+      "__uuid__": "9atgnX2uRFRa2aywUoFP4P"
+    },
+    "排行榜黄": {
+      "__uuid__": "a9egXQDKxNLpibpP2Bz9n4"
+    },
+    "能力榜蓝": {
+      "__uuid__": "59PW1eBhhLQr5V4xxvmMJN"
+    },
+    "能力榜黄": {
+      "__uuid__": "57DVwaz/tFk5eR6WYArzJw"
+    },
+    "双倍图标": {
+      "__uuid__": "e0rAWB6ItIkojuompIWegO"
+    },
+    "时间图标": {
+      "__uuid__": "f27FEYWWVOPaONZIltkwo4"
+    },
+    "升级": {
+      "__uuid__": "cep4PzwYFDQL8u09henF/O"
+    },
+    "windowBg": {
+      "__uuid__": "caqgMeWYZDELGs7iaTibOf"
+    },
+    "卡片": {
+      "__uuid__": "69pL0+2IJMX5CRUCVa71+s"
+    },
+    "商城": {
+      "__uuid__": "a4j2UHuPlOmIIFJ9N97reZ"
+    },
+    "排行榜列表": {
+      "__uuid__": "a2muzBpMhAjIz2ACdNfoki"
+    },
+    "数值框": {
+      "__uuid__": "d7HROokPBGK64NB5dIy1yi"
+    },
+    "等级块": {
+      "__uuid__": "1crwvmmOZHmpJtJUeTeGDF"
+    },
+    "WechatIMG1": {
+      "__uuid__": "f6LyiWJBBATa2Hb7U6CHP+"
+    },
+    "infoBg": {
+      "__uuid__": "1eFhXz9ZpFmLGcjsmIBPcM"
+    },
+    "backBtn": {
+      "__uuid__": "eayTxZjaxHkImi9/vWJHwS"
+    },
+    "第一": {
+      "__uuid__": "04gnIWNZ1LOIv2/suR8BLL"
+    },
+    "第三": {
+      "__uuid__": "e8O+WtP7dNoo21u9bDOK0u"
+    },
+    "+": {
+      "__uuid__": "17NdJLhrhJv4WgkS+Iis/c"
+    },
+    "bg2": {
+      "__uuid__": "4fdSf4pE9LIZyPSwam5BGK"
+    },
+    "numBg": {
+      "__uuid__": "e30kuaRchMl5s2uJ6Gf5pY"
+    },
+    "钻石": {
+      "__uuid__": "3cPW3B94ZGMLvNWVCS4iq0"
+    },
+    "Untitled-10001": {
+      "__uuid__": "e8fF0v839PrqvALC/uAeN2"
+    },
+    "Untitled-10002": {
+      "__uuid__": "643nSOy5ZOIpnXR84/8TBx"
+    },
+    "Untitled-10003": {
+      "__uuid__": "ac38DECbJHgIoZoUuuyprs"
+    },
+    "Untitled-10004": {
+      "__uuid__": "699sl5OztPhIyHOT8kp/RB"
+    },
+    "infoLevenBar1": {
+      "__uuid__": "88IjZjPedD9KZqeHX9YYfS"
+    },
+    "infoLevenBar2": {
+      "__uuid__": "09uUeYpeFJapCSkbOtmyKu"
+    },
+    "第二": {
+      "__uuid__": "2e+REdPftFx6y6ZepYMVRs"
+    },
+    "经验背景条": {
+      "__uuid__": "aeyKsDS95Cfp2hhRJaMmN7"
+    },
+    "经验条": {
+      "__uuid__": "ecDto7VX1KZrCTE5xdKPPr"
+    },
+    "转身按钮": {
+      "__uuid__": "fbEpuHFqtOjKaSLqWFt7VO"
+    },
+    "金币": {
+      "__uuid__": "0frnh/24NJ1K7CoXK/7s6Q"
+    },
+    "tv": {
+      "__uuid__": "9f/Kelyl1NtL+O1My2UPMF"
+    },
+    "black": {
+      "__uuid__": "9fPZH/aV1B152L1wsy675S"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kabao",
+    "texture": "bdowZWQJZE27Uqn5/DIyUt",
+    "rect": [
+      14,
+      14,
+      142,
+      127
+    ],
+    "offset": [
+      2,
+      -0.5
+    ],
+    "originalSize": [
+      166,
+      154
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

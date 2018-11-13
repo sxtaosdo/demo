@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "enemy6_leader_walk_05",
+    "texture": "19ebb1014",
+    "rect": [
+      611,
+      876,
+      98,
+      91
+    ],
+    "offset": [
+      -25,
+      -2.5
+    ],
+    "originalSize": [
+      160,
+      116
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

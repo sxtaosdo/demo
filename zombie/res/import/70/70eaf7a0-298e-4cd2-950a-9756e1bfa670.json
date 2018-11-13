@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "enemy6_leader_hit_04",
+    "texture": "19ebb1014",
+    "rect": [
+      274,
+      415,
+      95,
+      50
+    ],
+    "offset": [
+      30.5,
+      -24
+    ],
+    "originalSize": [
+      160,
+      116
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

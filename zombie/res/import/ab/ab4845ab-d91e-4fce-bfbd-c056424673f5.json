@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "enemy4_spy_walk_00",
+    "texture": "1fbeb8cb1",
+    "rect": [
+      2,
+      91,
+      86,
+      85
+    ],
+    "offset": [
+      -24,
+      9.5
+    ],
+    "originalSize": [
+      170,
+      142
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

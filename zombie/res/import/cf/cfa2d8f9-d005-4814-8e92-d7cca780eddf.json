@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "enemy6_leader_effect_01",
+    "texture": "19ebb1014",
+    "rect": [
+      310,
+      739,
+      60,
+      56
+    ],
+    "offset": [
+      -1,
+      -29
+    ],
+    "originalSize": [
+      166,
+      166
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
