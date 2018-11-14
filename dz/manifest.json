@@ -1,15 +1,19 @@
 {
 	"initial": [
-		"js/egret.min_f3705262.js",
-		"js/egret.web.min_2dd0bd72.js",
-		"js/eui.min_4f767512.js",
-		"js/assetsmanager.min_f2e50bd1.js",
-		"js/tween.min_6c5a88f9.js",
-		"js/game.min_45aa06f6.js",
-		"js/promise.min_83a6a5d.js"
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/game/game.js",
+		"libs/modules/promise/promise.js",
+		"libs/com/vconsole.min.js"
 	],
 	"game": [
-		"js/default.thm_f1875be9.js",
-		"js/main.min_7ccf562.js"
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/Platform.js",
+		"bin-debug/ThemeAdapter.js"
 	]
 }
