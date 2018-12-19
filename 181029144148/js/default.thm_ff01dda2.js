@@ -1,5 +1,4 @@
 window.skins={};
-window.skins.components={};
                 function __extends(d, b) {
                     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
                         function __() {
@@ -140,339 +139,147 @@ window.skins.components={};
 		return t;
 	};
 	return CheckBoxSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/ExampleItem.exml'] = window.skins.components.ExampleItemSkin = (function (_super) {
-	__extends(ExampleItemSkin, _super);
-	function ExampleItemSkin() {
+})(eui.Skin);generateEUI.paths['resource/eui_skins/game/GameSceneSkin.exml'] = window.GameSceneSkin = (function (_super) {
+	__extends(GameSceneSkin, _super);
+	function GameSceneSkin() {
 		_super.call(this);
-		this.skinParts = [];
+		this.skinParts = ["beginBtn","welcomeGroup","collectionBtn","cooldownLabel","collectionGroup","tipsLabel","infoGroup","updateLabel","picContainer","replayBtn","animationGroup"];
 		
-		this.height = 96;
-		this.width = 60;
+		this.height = 1334;
+		this.width = 750;
+		this.elementsContent = [this.welcomeGroup_i(),this.collectionGroup_i(),this.infoGroup_i(),this.animationGroup_i()];
 	}
-	var _proto = ExampleItemSkin.prototype;
+	var _proto = GameSceneSkin.prototype;
 
-	return ExampleItemSkin;
-})(eui.Skin);generateEUI.paths['resource/eui_skins/GameV.exml'] = window.GameV = (function (_super) {
-	__extends(GameV, _super);
-	function GameV() {
-		_super.call(this);
-		this.skinParts = ["curLb","bestLb","wantLb","timeLb","newGameInGameOver","gameOver","listExamples","scrListExample","addBtn","delBtn","switchBtn","restoreBtn","gotoBtn","saveBtn"];
-		
-		this.height = 960;
-		this.width = 600;
-		this.elementsContent = [this._Group2_i(),this._Group4_i()];
-		this._Group1_i();
-		
-		this.gameOver_i();
-		
-		this.scrListExample_i();
-		
-		this._Group3_i();
-		
-		this.restoreBtn_i();
-		
-		this.saveBtn_i();
-		
-		this.states = [
-			new eui.State ("trainState",
-				[
-					new eui.AddItems("scrListExample","",2,"_Group4"),
-					new eui.AddItems("_Group3","",2,"_Group4"),
-					new eui.AddItems("restoreBtn","_Group4",0,""),
-					new eui.AddItems("saveBtn","_Group4",1,""),
-					new eui.SetProperty("_Group2","top",20),
-					new eui.SetProperty("scrListExample","anchorOffsetY",0),
-					new eui.SetProperty("gotoBtn","label","前往测试")
-				])
-			,
-			new eui.State ("testState",
-				[
-					new eui.AddItems("_Group1","",0,""),
-					new eui.AddItems("gameOver","",2,"_Group4")
-				])
-		];
-		
-		eui.Binding.$bindProperties(this, ["hostComponent.data.curScore"],[0],this._Label4,"text");
-	}
-	var _proto = GameV.prototype;
-
-	_proto._Group1_i = function () {
+	_proto.welcomeGroup_i = function () {
 		var t = new eui.Group();
-		this._Group1 = t;
-		t.left = 0;
-		t.right = 0;
-		t.top = 0;
-		t.elementsContent = [this._Label1_i(),this._Label2_i(),this.curLb_i(),this.bestLb_i()];
-		return t;
-	};
-	_proto._Label1_i = function () {
-		var t = new eui.Label();
-		t.height = 30;
-		t.horizontalCenter = 0;
-		t.size = 20;
-		t.text = "当前分数";
-		t.textAlign = "center";
-		t.width = 120;
-		return t;
-	};
-	_proto._Label2_i = function () {
-		var t = new eui.Label();
-		t.height = 30;
-		t.right = 0;
-		t.size = 20;
-		t.text = "最高分数";
-		t.textAlign = "center";
-		t.width = 120;
-		return t;
-	};
-	_proto.curLb_i = function () {
-		var t = new eui.Label();
-		this.curLb = t;
-		t.height = 30;
-		t.horizontalCenter = 0;
-		t.size = 30;
-		t.text = "";
-		t.textAlign = "center";
-		t.top = 35;
-		t.width = 120;
-		return t;
-	};
-	_proto.bestLb_i = function () {
-		var t = new eui.Label();
-		this.bestLb = t;
-		t.height = 30;
-		t.right = 0;
-		t.size = 30;
-		t.text = "";
-		t.textAlign = "center";
-		t.top = 35;
-		t.width = 120;
-		return t;
-	};
-	_proto._Group2_i = function () {
-		var t = new eui.Group();
-		this._Group2 = t;
-		t.left = 0;
-		t.right = 0;
-		t.top = 70;
-		t.elementsContent = [this.wantLb_i(),this.timeLb_i()];
-		return t;
-	};
-	_proto.wantLb_i = function () {
-		var t = new eui.Label();
-		this.wantLb = t;
-		t.anchorOffsetX = 0;
-		t.horizontalCenter = 0;
-		t.text = "舞出你的精彩";
-		t.textAlign = "center";
-		t.textColor = 0x070202;
-		t.top = 33;
-		return t;
-	};
-	_proto.timeLb_i = function () {
-		var t = new eui.Label();
-		this.timeLb = t;
-		t.anchorOffsetX = 0;
-		t.bottom = 0;
-		t.right = 0;
-		t.size = 20;
-		t.text = "";
-		t.textAlign = "center";
-		t.textColor = 0xDC143C;
-		return t;
-	};
-	_proto.gameOver_i = function () {
-		var t = new eui.Group();
-		this.gameOver = t;
-		t.height = 160;
+		this.welcomeGroup = t;
 		t.horizontalCenter = 0;
 		t.verticalCenter = 0;
-		t.visible = true;
-		t.width = 280;
-		t.layout = this._BasicLayout1_i();
-		t.elementsContent = [this._Rect1_i(),this._Label3_i(),this._Label4_i(),this.newGameInGameOver_i()];
-		return t;
-	};
-	_proto._BasicLayout1_i = function () {
-		var t = new eui.BasicLayout();
-		return t;
-	};
-	_proto._Rect1_i = function () {
-		var t = new eui.Rect();
-		t.bottom = 0;
-		t.ellipseHeight = 32;
-		t.ellipseWidth = 32;
-		t.enabled = true;
-		t.fillAlpha = 0.7;
-		t.fillColor = 0xe0e0e0;
-		t.left = 0;
-		t.right = 0;
-		t.top = 0;
-		return t;
-	};
-	_proto._Label3_i = function () {
-		var t = new eui.Label();
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.bold = true;
-		t.height = 60;
-		t.italic = true;
-		t.left = 0;
-		t.size = 35;
-		t.text = "游戏结束 !";
-		t.textAlign = "center";
-		t.textColor = 0xff3600;
-		t.top = 0;
-		t.verticalAlign = "middle";
-		t.percentWidth = 100;
-		return t;
-	};
-	_proto._Label4_i = function () {
-		var t = new eui.Label();
-		this._Label4 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.bold = true;
-		t.height = 50;
-		t.left = 0;
-		t.right = 0;
-		t.size = 28;
-		t.textAlign = "center";
-		t.textColor = 0x727272;
-		t.top = 60;
-		t.verticalAlign = "middle";
-		return t;
-	};
-	_proto.newGameInGameOver_i = function () {
-		var t = new eui.Label();
-		this.newGameInGameOver = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.bold = true;
-		t.bottom = 0;
-		t.height = 50;
-		t.left = 0;
-		t.right = 0;
-		t.size = 28;
-		t.text = "再来一次";
-		t.textAlign = "center";
-		t.textColor = 0x288cff;
-		t.verticalAlign = "middle";
-		return t;
-	};
-	_proto.scrListExample_i = function () {
-		var t = new eui.Scroller();
-		this.scrListExample = t;
-		t.bottom = 111;
-		t.left = 30;
-		t.right = 100;
-		t.scrollPolicyH = "off";
-		t.scrollPolicyV = "auto";
-		t.top = 102;
-		t.viewport = this.listExamples_i();
-		return t;
-	};
-	_proto.listExamples_i = function () {
-		var t = new eui.List();
-		this.listExamples = t;
-		t.allowMultipleSelection = false;
-		t.useVirtualLayout = true;
-		t.layout = this._TileLayout1_i();
-		return t;
-	};
-	_proto._TileLayout1_i = function () {
-		var t = new eui.TileLayout();
-		return t;
-	};
-	_proto._Group3_i = function () {
-		var t = new eui.Group();
-		this._Group3 = t;
-		t.right = 10;
-		t.verticalCenter = 0;
+		t.visible = false;
 		t.layout = this._VerticalLayout1_i();
-		t.elementsContent = [this.addBtn_i(),this.delBtn_i(),this.switchBtn_i()];
+		t.elementsContent = [this._Label1_i(),this.beginBtn_i()];
 		return t;
 	};
 	_proto._VerticalLayout1_i = function () {
 		var t = new eui.VerticalLayout();
-		t.gap = 20;
+		t.gap = 50;
+		t.horizontalAlign = "center";
 		return t;
 	};
-	_proto.addBtn_i = function () {
+	_proto._Label1_i = function () {
+		var t = new eui.Label();
+		t.fontFamily = "Microsoft YaHei";
+		t.size = 100;
+		t.text = "手势识别";
+		t.x = 67;
+		t.y = 76;
+		return t;
+	};
+	_proto.beginBtn_i = function () {
 		var t = new eui.Button();
-		this.addBtn = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 100;
-		t.label = "增加姿势种类";
-		t.width = 66;
+		this.beginBtn = t;
+		t.label = "开始";
+		t.scaleX = 2;
+		t.scaleY = 2;
+		t.x = 0;
+		t.y = 54;
 		return t;
 	};
-	_proto.delBtn_i = function () {
-		var t = new eui.Button();
-		this.delBtn = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 100;
-		t.label = "减少姿势种类";
-		t.width = 66;
-		return t;
-	};
-	_proto.switchBtn_i = function () {
-		var t = new eui.Button();
-		this.switchBtn = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 100;
-		t.label = "查看种类样本";
-		t.width = 66;
-		return t;
-	};
-	_proto._Group4_i = function () {
+	_proto.collectionGroup_i = function () {
 		var t = new eui.Group();
-		this._Group4 = t;
-		t.bottom = 10;
+		this.collectionGroup = t;
+		t.bottom = 0;
+		t.left = 0;
+		t.right = 0;
+		t.top = 0;
+		t.visible = false;
+		t.elementsContent = [this.collectionBtn_i(),this.cooldownLabel_i()];
+		return t;
+	};
+	_proto.collectionBtn_i = function () {
+		var t = new eui.Button();
+		this.collectionBtn = t;
 		t.horizontalCenter = 0;
-		t.layout = this._HorizontalLayout1_i();
-		t.elementsContent = [this.gotoBtn_i()];
+		t.label = "确定";
+		t.verticalCenter = 0;
 		return t;
 	};
-	_proto._HorizontalLayout1_i = function () {
-		var t = new eui.HorizontalLayout();
-		t.gap = 20;
+	_proto.cooldownLabel_i = function () {
+		var t = new eui.Label();
+		this.cooldownLabel = t;
+		t.horizontalCenter = 0;
+		t.size = 400;
+		t.text = "3";
+		t.verticalCenter = 0;
 		return t;
 	};
-	_proto.restoreBtn_i = function () {
+	_proto.infoGroup_i = function () {
+		var t = new eui.Group();
+		this.infoGroup = t;
+		t.height = 200;
+		t.left = 0;
+		t.right = 0;
+		t.top = 0;
+		t.elementsContent = [this.tipsLabel_i()];
+		return t;
+	};
+	_proto.tipsLabel_i = function () {
+		var t = new eui.Label();
+		this.tipsLabel = t;
+		t.bold = true;
+		t.right = 0;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.size = 38;
+		t.text = "来和我猜拳吧";
+		t.textAlign = "right";
+		t.verticalCenter = 0;
+		return t;
+	};
+	_proto.animationGroup_i = function () {
+		var t = new eui.Group();
+		this.animationGroup = t;
+		t.bottom = 0;
+		t.left = 0;
+		t.right = 0;
+		t.top = 0;
+		t.elementsContent = [this.updateLabel_i(),this.picContainer_i(),this.replayBtn_i()];
+		return t;
+	};
+	_proto.updateLabel_i = function () {
+		var t = new eui.Label();
+		this.updateLabel = t;
+		t.bold = true;
+		t.horizontalCenter = 0;
+		t.multiline = true;
+		t.text = "上传中";
+		t.textAlign = "center";
+		t.textColor = 0x00ff00;
+		t.width = 500;
+		t.y = 843;
+		return t;
+	};
+	_proto.picContainer_i = function () {
+		var t = new eui.Group();
+		this.picContainer = t;
+		t.height = 806;
+		t.left = 0;
+		t.right = 0;
+		t.top = 0;
+		return t;
+	};
+	_proto.replayBtn_i = function () {
 		var t = new eui.Button();
-		this.restoreBtn = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 66;
-		t.label = "加载模型";
-		t.width = 144;
+		this.replayBtn = t;
+		t.horizontalCenter = 0;
+		t.label = "在玩一次";
+		t.scaleX = 2;
+		t.scaleY = 2;
+		t.y = 968;
 		return t;
 	};
-	_proto.gotoBtn_i = function () {
-		var t = new eui.Button();
-		this.gotoBtn = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 66;
-		t.label = "前往训练";
-		t.width = 144;
-		return t;
-	};
-	_proto.saveBtn_i = function () {
-		var t = new eui.Button();
-		this.saveBtn = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 66;
-		t.label = "存储模型";
-		t.width = 144;
-		return t;
-	};
-	return GameV;
+	return GameSceneSkin;
 })(eui.Skin);generateEUI.paths['resource/eui_skins/HScrollBarSkin.exml'] = window.skins.HScrollBarSkin = (function (_super) {
 	__extends(HScrollBarSkin, _super);
 	function HScrollBarSkin() {

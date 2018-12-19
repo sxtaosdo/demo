@@ -1,17 +1,16 @@
 {
 	"initial": [
-		"js/egret.min_acd30022.js",
-		"js/egret.web.min_3e311c0e.js",
-		"js/eui.min_22447123.js",
-		"js/assetsmanager.min_49f5417f.js",
+		"js/egret.min_1f88eb98.js",
+		"js/egret.web.min_2dd0bd72.js",
+		"js/eui.min_38a8c284.js",
+		"js/assetsmanager.min_f2e50bd1.js",
 		"js/tween.min_6c5a88f9.js",
-		"js/promise.min_83a6a5d.js",
-		"js/tensorflow.min_b463c7e.js",
-		"js/posenet.min_953366a.js",
-		"js/filesaver.min_d77c6645.js"
+		"js/game.min_45aa06f6.js",
+		"js/socket.min_8b4cb752.js",
+		"js/promise.min_83a6a5d.js"
 	],
 	"game": [
-		"js/default.thm_b81a3501.js",
-		"js/main.min_f6a5e6fb.js"
+		"js/default.thm_ff01dda2.js",
+		"js/main.min_551a35f7.js"
 	]
 }

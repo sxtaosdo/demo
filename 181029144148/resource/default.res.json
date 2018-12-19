@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,class_dict_txt,snowParticle_json,snowParticle_png,knn_model_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
 			"name": "preload"
 		}
 	],
@@ -132,29 +132,9 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"url": "config/description.json",
+			"name": "description_json",
 			"type": "json",
-			"name": "description_json"
-		},
-		{
-			"url": "config/class_dict.txt",
-			"type": "text",
-			"name": "class_dict_txt"
-		},
-		{
-			"url": "assets/snowParticle.json",
-			"type": "json",
-			"name": "snowParticle_json"
-		},
-		{
-			"url": "assets/snowParticle.png",
-			"type": "image",
-			"name": "snowParticle_png"
-		},
-		{
-			"url": "config/knn_model.json",
-			"type": "json",
-			"name": "knn_model_json"
+			"url": "config/description.json"
 		}
 	]
 }
